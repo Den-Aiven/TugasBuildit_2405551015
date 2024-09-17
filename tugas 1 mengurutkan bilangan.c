@@ -21,7 +21,6 @@ int main() {
         scanf("%d", &nilai[i]);
     }
     
-    
     for (int i = 0; i < jumlah - 1; i++) {
         for (int j = 0; j < jumlah - i - 1; j++) {
             if (nilai[j + 1] < nilai[j]) {
